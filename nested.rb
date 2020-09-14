@@ -128,6 +128,8 @@ def adding_to_dennis
         }
      }
 
-    programmer_hash[:dennis_ritchie][:languages]
+    lang_array = programmer_hash[:dennis_ritchie][:languages]
+    lang_array << "Assembly"
+    programmer_hash
 
 end
